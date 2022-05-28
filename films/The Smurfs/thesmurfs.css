@@ -73,25 +73,18 @@ body {
 
 #example_video_1 {
     position: absolute;
-    z-index: 999;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    z-index: 100;
+    width: 1200px;
+    height: 675px;
 }
 
-.video-js {
-    position: absolute;
-    z-index: 999;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
-
-@media (max-width: 600px){
-    #videoplayer {
+@media (max-width: 600px) {
+    #example_video_1 {
         width: 328px;
         height: 184px;
+        position: absolute;
     }
 }
