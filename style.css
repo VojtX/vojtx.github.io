@@ -95,15 +95,102 @@ a {
     #card {
         background: #fff;
         position: relative;
+        display: inline-block;
         z-index: 50;
-        top: 140px;
+        top: 150px;
         left: 22.5%;
         transform: translate(-50%, -50%);
         width: 160px;
         height: 280px;
         border-radius: 15px;
-        margin: 24px;
+        margin: 13px;
         overflow: hidden;
     }
     
 }
+
+@media (max-width: 390px) {
+    #card {
+        background: #fff;
+        position: relative;
+        display: inline-block;
+        z-index: 50;
+        top: 150px;
+        left: 22.5%;
+        transform: translate(-50%, -50%);
+        width: 160px;
+        height: 280px;
+        border-radius: 15px;
+        margin: px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 380px) {
+    #card {
+        background: #fff;
+        position: relative;
+        display: inline-block;
+        z-index: 50;
+        top: 150px;
+        left: 22.5%;
+        transform: translate(-50%, -50%);
+        width: 160px;
+        height: 280px;
+        border-radius: 10px;
+        margin: 12px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 380px) {
+    #card {
+        background: #fff;
+        position: relative;
+        display: inline-block;
+        z-index: 50;
+        top: 160px;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        width: 160px;
+        height: 280px;
+        border-radius: 10px;
+        margin: 6px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 350px) {
+    #card {
+        background: #fff;
+        position: relative;
+        display: inline-block;
+        z-index: 50;
+        top: 160px;
+        left: 24.5%;
+        transform: translate(-50%, -50%);
+        width: 160px;
+        height: 280px;
+        border-radius: 10px;
+        margin: 3px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 338px) {
+    #card {
+        background: #fff;
+        position: relative;
+        display: inline-block;
+        z-index: 50;
+        top: 160px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 160px;
+        height: 280px;
+        border-radius: 10px;
+        margin: 3px;
+        overflow: hidden;
+    }
+}
+
