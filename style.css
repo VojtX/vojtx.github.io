@@ -84,5 +84,26 @@ a {
     border-radius: 10px;
 }
 
-
-/* @media (max-width: 400px){  */
+@media (max-width: 600px) {
+    #row {
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 55px;
+    }
+    #card {
+        background: #fff;
+        position: relative;
+        z-index: 50;
+        top: 140px;
+        left: 22.5%;
+        transform: translate(-50%, -50%);
+        width: 160px;
+        height: 280px;
+        border-radius: 15px;
+        margin: 24px;
+        overflow: hidden;
+    }
+    
+}
